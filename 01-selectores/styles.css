@@ -1,0 +1,85 @@
+/*
+####### SELECTORES #######
+
+*/
+
+/* ### Selector Universal ### */
+
+/* Nos permite seleccionar todo el documento HTML */
+/* EL asterisco * selecciona todos los elementos HTML, se usa para poner estilos generales */
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;/*Quito todos los margenes*/
+    padding: 0px;/*Quito todos los padding*/
+}
+
+/* ### Selector de etiqueta ### */
+h1{/*Selector de etiqueta h1*/
+    background: red;
+    color: white;
+    padding: 10px;
+}
+
+a{
+    /*Darle estilo a los enlaces*/
+    font-size: 18px;
+    color: green;
+    text-decoration: none;/*NO le ponga decoracion al enlace*/
+}
+
+footer a{/*Solamente a los enlaces dentro del footer*/
+    color: red;
+}
+
+/* ### Selector de id ### */
+#descripcion,
+#titulo{/*Le aplico el estilo a mas de un id*/
+    border: 3px solid black;/*anch de borde - estilo de borde - color*/
+    padding: 15px;
+
+}
+#titulo{
+    background-color: blue;
+    border: 2px dashed white;
+}
+
+/* ### Selector de clase ### */
+.parrafo{
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bold;
+}
+/* ### Selector de atributo ### */
+#usuario form{
+    border: 5px solid blue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 20px;
+
+}
+#usuario form *{/*Todos los elementos dentro del form*/
+    display: block;/*Cada elemento tiene una linea para el solo*/
+}
+input[type="text"]{
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 300px;
+}
+input[type="submit"]{
+    background: green;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 2px solid black;
+    cursor: pointer;/*Cambia el tipo de puntero al pasar por aqui*/
+}
+
+/* Selector hijo */
+
+#menu > li > a{
+    font-size: 18px;
+    color: red;
+    text-decoration: none;/*NO le ponga decoracion al enlace*/
+}
+
