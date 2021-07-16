@@ -1,0 +1,33 @@
+body{
+    background-color: #ccc;
+    /*background-image: url(img/pattern.jpg);*/
+    background-size: 100%;
+    background-attachment: fixed;/*Fondo nunca se mueve*/
+    background-position: left bottom;/*Cambiar la posicion de la imagen*/
+    
+    color: black;
+    text-align: justify;
+    text-indent: 15px;/*Cada vez que salto de linea le pone un identado*/
+    word-spacing: 10px;/*Pixeles entre palabra y palabra*/
+    letter-spacing: 1px;/*Pixeles entre letra y letra*/
+
+}
+
+#caja{
+    border: 5px solid black;
+    padding: 10px;
+    background-color: rgb(0, 26, 255);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    line-height: 50px;/*Cambiar altura de linea*/
+    text-transform: uppercase;
+    text-decoration: line-through;
+    vertical-align: auto;
+}s
+
+h2{
+    color: red;
+    background: white;
+    border: 5px solid red;
+}

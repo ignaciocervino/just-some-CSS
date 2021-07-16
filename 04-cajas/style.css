@@ -1,0 +1,42 @@
+*{/*Todos los elementos de la pagina*/
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    padding: 40px;
+}
+
+#cajas{
+    max-width: 1200px;
+    border: 1px solid black;
+}
+
+.caja{
+    width: 250px;/*Anchura de la caja*/
+    height: 250px;/*Altura de la caja*/
+    background-color: lightblue;
+    border: 5px solid red;
+    margin: 15px;/*Le aplica margen superior, izquierdo, derecho y inferior de 15 px*/
+    /*Modifico los margenes*/
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 10px;
+    padding: 20px;
+    padding-bottom: 34px;
+    display: block;
+    float: left;
+}
+
+.caja p{
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 230px;/*250 - 20 del tamaño de la letra*/
+
+}
+
+.clearfix{
+    float: none;
+    clear: both;/*Limpiar tanto lo de las izquierda como derecha*/
+}
