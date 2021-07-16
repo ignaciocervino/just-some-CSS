@@ -95,6 +95,7 @@
     color: #444;
     text-transform: uppercase;
     box-shadow: 5px 5px 10px rgb(128, 123, 123);
+    border-radius: 5px 10px 15px 50px;
 }
 
 .sombra-interior{
