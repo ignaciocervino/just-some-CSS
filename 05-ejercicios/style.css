@@ -7,7 +7,7 @@
 (READY)6. El contenido principal debe tener un ancho del 70%.
 (READY)7. El contenido dentro del contenedor principal debe ser una cuadricula con 4 lineas de 2 cajas.
 (READY)8. La barra lateral debe tener un ancho del 30%.
-9. El footer debe tener un ancho del 100% del div que lo contiene y estar abajo del todo.
+(READY)9. El footer debe tener un ancho del 100% del div que lo contiene y estar abajo del todo.
 */
 
 /*Reseteo todo*/
@@ -63,7 +63,6 @@
 
 #contenido{
     width: 69%;
-    border: 1px solid grey;
     float: left;
 }
 
@@ -71,6 +70,8 @@
     float: left;
     width: 30%;
     border: 1px solid red;
+    min-height: 500px;
+    text-align: center;
 }
 
 #contenido > h1{
@@ -88,4 +89,15 @@
     color: white;
     float: left;
     margin: 4%;
+}
+
+#footer{
+    width: 100%;
+    height: 55px;
+    line-height: 55px;
+    background: #eee;
+    text-align: center;
+    color: #444;
+    border-top: 1px solid #ccc;
+    
 }
