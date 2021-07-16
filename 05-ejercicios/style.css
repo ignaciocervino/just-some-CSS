@@ -3,7 +3,7 @@
 (READY)2. Crear una estructura HTML que cuente con un CONTENEDOR GENERAL, CABECERA, MENU, BARRA LATERAL, SECCION DE CONTENIDO PRINCIPAL, ELEMENTOS DENTRO DEL CONTENEDOR PRINCIPAL Y FOOTER.
 (READY)3. Todo el contenido debe estar dentro del contenedor general y su ancho será de 1200px y estar centrado.
 (READY)4. Header debe acupar el 100% de ancho y tener un texto grande centrado.
-5. Menu debe tener los elementos uno al lado del otro.
+(READY)5. Menu debe tener los elementos uno al lado del otro.
 6. El contenido principal debe tener un ancho del 70%.
 7. El contenido dentro del contenedor principal debe ser una cuadricula con 4 lineas de 2 cajas.
 8. La barra lateral debe tener un ancho del 30%.
@@ -32,4 +32,31 @@
     color: white;
     text-align: center;
     line-height: 90px;/*Centrar texto en vertical*/
+}
+#menu{
+    background: #eee;
+}
+#menu ul li{
+    display: block;
+    float: left;
+    
+    border-right: 1px solid #ccc;
+    
+}
+#menu ul li a{
+    display: block;
+    color: #444;
+    padding: 15px;
+}
+#menu ul li:hover{
+    background: lightblue;
+    cursor: pointer;
+}
+/*pseudoclase*/
+#menu ul li:hover a{
+    
+    color: white;
+}
+.clearfix{
+    clear: both;
 }
