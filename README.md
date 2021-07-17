@@ -1,2 +1,2 @@
 # CSS FUNDAMENTALS
-Training some CSS stuff.
+Training some CSS Fundamentals.
