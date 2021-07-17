@@ -1,2 +1,2 @@
-# just-some-CSS
+# CSS FUNDAMENTALS
 Training some CSS stuff.
