@@ -4,8 +4,8 @@ body{
 }
 
 #layout{
-    display: inline-flex;
-
+    display: flex;
+    flex-flow: row wrap;
 
 
     border: 3px solid black;
@@ -13,6 +13,9 @@ body{
 }
 
 .caja{
+    flex-grow: 1;
+
+
     font-size: 20px;
     font-weight: bold;
     text-align: center;
@@ -24,17 +27,21 @@ body{
 }
 
 .red{
+    flex-grow: 2;
     background: red;
 }
 
 .green{
+    flex-grow: 5;
     background: green;
 }
 
 .blue{
+    flex-grow: 10;
     background: blue;
 }
 
 .orange{
+    flex-grow: 5;
     background: orange;
 }
