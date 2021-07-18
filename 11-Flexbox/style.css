@@ -1,4 +1,7 @@
 body{
+    --rojo: red;
+
+
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
@@ -7,14 +10,17 @@ body{
     display: flex;
     flex-flow: row wrap;
 
+    height: 700px;
+
+    align-items: flex-start;
 
     border: 3px solid black;
     padding: 5px;
 }
 
 .caja{
-    flex-grow: 1;
-
+   
+    
 
     font-size: 20px;
     font-weight: bold;
@@ -27,21 +33,21 @@ body{
 }
 
 .red{
-    flex-grow: 2;
-    background: red;
+    align-self: flex-start;
+    background: var(--rojo);
 }
 
 .green{
-    flex-grow: 5;
+    margin-top: 11%;
     background: green;
 }
 
 .blue{
-    flex-grow: 10;
+    align-self: center;
     background: blue;
 }
 
 .orange{
-    flex-grow: 5;
+    align-self: flex-end;
     background: orange;
 }
